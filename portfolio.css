@@ -1,0 +1,62 @@
+
+
+body {
+    background-color: lightslategray;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin-top: 1000px;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 100px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 10px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 40%;
+    height: 30%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: lightslategray;
+    padding: -50px 20px 10px 0px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+.column {
+    border: 1px maroon;  
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    float: left;
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid maroon; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: none;
+   
+}
+
+input[type=submit] {
+    background-color: maroon;
+    color:whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+    background-color:red;
+}
