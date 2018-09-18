@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="contact.css"/>
     <title>CONTACT</title>
 </head>
-    
+    <header>
         <div class="nav">
             <div class="container">
                 <ul class="float-left">
@@ -19,24 +19,37 @@
                 </ul>
             </div>
         </div>
-    
+    </header>
+
 <body>
-        <div class="column">
-            <label for="fname">First Name
-            </label>
-            <input type="text" id="fname" name="firstname"
-            placeholder="First Name">
+    
+    <div class="container">    
+        <div class="row">
+            <div class="col-25">
+            </div>   
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="First Name"> 
+                </div>
+            </div>        
+                <div class="row">
+                    <div class="col-25">
+                    </div> 
+                    <div class="col-75">       
+                        <input type="text" id="fname" name="lastname" placeholder="Last Name">
+                    </div>
+                    <div class="row">
+                        <div class="col-25">    
+                    <label for="subject">Subject
+                    </label>
+                        </div>
+                        <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Comments" style="height:200px"></textarea>
+                        </div>
+                        <div class="row">
+                        <input type="submit" value="Submit">
+                        </div>    
             
-            <label for="lname">Last Name
-            </label>
-            <input type="text" id="fname" name="lastname"
-            placeholder="Last Name">
-            
-            <label for="subject">Subject
-            </label>
-            <textarea id="subject" name="subject"
-            placeholder="Comments" style="height:200px"></textarea>
-            <input type="submit" value="Submit">
-        </div>
+       
+    </div>    
 </body>
 </html>

@@ -1,6 +1,11 @@
+.header {
+    margin-bottom: 20px;
+}
+
+
 .column {
     border: 1px maroon;  
-    margin-top: 50px;
+    margin-top: 10px;
     margin-right: 50px;
     margin-bottom: 50px;
     margin-left: 250px;
@@ -10,7 +15,9 @@
     padding: 20px;
     
 }
-
+.container {
+    margin-top: 10px;
+}
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;   
@@ -42,3 +49,4 @@ input[type=submit]:hover {
       margin-top: 0;
     }
   }
+
